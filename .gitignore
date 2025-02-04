@@ -1,0 +1,84 @@
+# Node modules
+node_modules/
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log
+lerna-debug.log
+debug.log
+expo-error.log
+
+# Editor settings & OS-specific files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Metro Bundler cache
+metro-cache/
+cache/
+react-native-packager-cache/
+
+# React Native - iOS build files
+ios/build/
+ios/Pods/
+ios/.symlinks/
+ios/.swiftpm/
+ios/xcuserdata/
+ios/*.xcodeproj/project.xcworkspace/
+
+# React Native - Android build files
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+android/local.properties
+android/app/src/debug/
+android/app/src/release/
+android/app/src/main/assets/index.android.bundle
+
+# New Architecture - C++ Build Files
+android/app/src/main/jni/**/*.o
+android/app/src/main/jni/**/*.so
+android/app/src/main/jni/**/*.a
+android/app/src/main/jni/**/*.d
+android/app/src/main/jni/**/*.h
+android/app/src/main/jni/**/*.mk
+android/app/src/main/jni/**/*.json
+android/app/src/main/jni/**/*.cpp
+android/app/src/main/jni/**/*.c
+
+# Flipper debugging tool
+flipper/
+.flipper/
+
+# Fastlane (if used)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# CocoaPods
+ios/Pods/
+ios/.symlinks/
+ios/.generated/
+ios/*.xcworkspace/
+ios/*.lock
+
+# React Native cache
+.expo/
+.expo-shared/
+
+# Temporary files
+tmp/
+temp/
